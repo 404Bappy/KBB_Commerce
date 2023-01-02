@@ -5,9 +5,9 @@ import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
 
 const Product = (props) => {
-   // console.log(props);
+    // console.log(props);
     const { name, img, seller, price, stock } = props.product;
-     const element = <FontAwesomeIcon icon={faShoppingCart} />
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div className='product'>
             <div>
